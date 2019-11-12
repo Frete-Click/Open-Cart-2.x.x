@@ -1,0 +1,7 @@
+2019-11-12 12:34:15 - PHP Notice:  Undefined variable: freteclick_total in /home/vagrant/code/opencart2/admin/view/template/shipping/freteclick.tpl on line 31
+2019-11-12 12:34:15 - PHP Notice:  Undefined variable: freteclick_geo_zone_id in /home/vagrant/code/opencart2/admin/view/template/shipping/freteclick.tpl on line 40
+2019-11-12 12:34:15 - PHP Notice:  Undefined variable: freteclick_geo_zone_id in /home/vagrant/code/opencart2/admin/view/template/shipping/freteclick.tpl on line 40
+2019-11-12 12:34:15 - PHP Notice:  Undefined variable: freteclick_status in /home/vagrant/code/opencart2/admin/view/template/shipping/freteclick.tpl on line 53
+2019-11-12 12:34:15 - PHP Notice:  Undefined variable: freteclick_sort_order in /home/vagrant/code/opencart2/admin/view/template/shipping/freteclick.tpl on line 66
+2019-11-12 14:29:14 - PHP Notice:  Undefined index: country_id in /home/vagrant/code/opencart2/catalog/controller/checkout/shipping.php on line 72
+2019-11-12 14:29:14 - PHP Notice:  Undefined index: country_id in /home/vagrant/code/opencart2/catalog/controller/checkout/shipping.php on line 82
