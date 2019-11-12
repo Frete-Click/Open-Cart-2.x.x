@@ -135,6 +135,7 @@ class ControllerCheckoutShipping extends Controller {
 			$this->load->model('extension/extension');
 
 			$results = $this->model_extension_extension->getExtensions('shipping');
+			// var_dump($results); exit;
 
 			foreach ($results as $result) {
 				if ($this->config->get($result['code'] . '_status')) {

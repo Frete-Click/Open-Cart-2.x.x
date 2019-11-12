@@ -5,3 +5,121 @@
 2019-11-12 12:34:15 - PHP Notice:  Undefined variable: freteclick_sort_order in /home/vagrant/code/opencart2/admin/view/template/shipping/freteclick.tpl on line 66
 2019-11-12 14:29:14 - PHP Notice:  Undefined index: country_id in /home/vagrant/code/opencart2/catalog/controller/checkout/shipping.php on line 72
 2019-11-12 14:29:14 - PHP Notice:  Undefined index: country_id in /home/vagrant/code/opencart2/catalog/controller/checkout/shipping.php on line 82
+2019-11-12 19:35:00 - PHP Notice:  Trying to get property 'logradouro' of non-object in /home/vagrant/code/opencart2/catalog/model/shipping/freteclick.php on line 119
+2019-11-12 19:35:00 - PHP Notice:  Trying to get property 'bairro' of non-object in /home/vagrant/code/opencart2/catalog/model/shipping/freteclick.php on line 122
+2019-11-12 19:35:00 - PHP Notice:  Trying to get property 'cidade' of non-object in /home/vagrant/code/opencart2/catalog/model/shipping/freteclick.php on line 123
+2019-11-12 19:35:00 - PHP Notice:  Trying to get property 'estado' of non-object in /home/vagrant/code/opencart2/catalog/model/shipping/freteclick.php on line 124
+2019-11-12 19:35:19 - PHP Notice:  Trying to get property 'logradouro' of non-object in /home/vagrant/code/opencart2/catalog/model/shipping/freteclick.php on line 119
+2019-11-12 19:35:19 - PHP Notice:  Trying to get property 'bairro' of non-object in /home/vagrant/code/opencart2/catalog/model/shipping/freteclick.php on line 122
+2019-11-12 19:35:19 - PHP Notice:  Trying to get property 'cidade' of non-object in /home/vagrant/code/opencart2/catalog/model/shipping/freteclick.php on line 123
+2019-11-12 19:35:19 - PHP Notice:  Trying to get property 'estado' of non-object in /home/vagrant/code/opencart2/catalog/model/shipping/freteclick.php on line 124
+2019-11-12 19:38:42 - PHP Notice:  Trying to get property 'logradouro' of non-object in /home/vagrant/code/opencart2/catalog/model/shipping/freteclick.php on line 119
+2019-11-12 19:38:42 - PHP Notice:  Trying to get property 'bairro' of non-object in /home/vagrant/code/opencart2/catalog/model/shipping/freteclick.php on line 122
+2019-11-12 19:38:42 - PHP Notice:  Trying to get property 'cidade' of non-object in /home/vagrant/code/opencart2/catalog/model/shipping/freteclick.php on line 123
+2019-11-12 19:38:42 - PHP Notice:  Trying to get property 'estado' of non-object in /home/vagrant/code/opencart2/catalog/model/shipping/freteclick.php on line 124
+2019-11-12 19:44:35 - PHP Notice:  Undefined variable: entry_postcode in /home/vagrant/code/opencart2/admin/view/template/shipping/freteclick.tpl on line 29
+2019-11-12 19:44:35 - PHP Notice:  Undefined variable: shipping_freteclick_postcode in /home/vagrant/code/opencart2/admin/view/template/shipping/freteclick.tpl on line 31
+2019-11-12 19:44:35 - PHP Warning:  Use of undefined constant entry_postcode - assumed 'entry_postcode' (this will throw an Error in a future version of PHP) in /home/vagrant/code/opencart2/admin/view/template/shipping/freteclick.tpl on line 31
+2019-11-12 19:44:35 - PHP Notice:  Undefined variable: help_freteclick_key in /home/vagrant/code/opencart2/admin/view/template/shipping/freteclick.tpl on line 35
+2019-11-12 19:44:35 - PHP Notice:  Undefined variable: entry_freteclick_key in /home/vagrant/code/opencart2/admin/view/template/shipping/freteclick.tpl on line 35
+2019-11-12 19:44:35 - PHP Notice:  Undefined variable: entry_freteclick_key in /home/vagrant/code/opencart2/admin/view/template/shipping/freteclick.tpl on line 37
+2019-11-12 19:44:35 - PHP Notice:  Undefined variable: shipping_freteclick_status in /home/vagrant/code/opencart2/admin/view/template/shipping/freteclick.tpl on line 44
+2019-11-12 19:44:35 - PHP Warning:  Use of undefined constant text_disabled - assumed 'text_disabled' (this will throw an Error in a future version of PHP) in /home/vagrant/code/opencart2/admin/view/template/shipping/freteclick.tpl on line 49
+2019-11-12 19:45:52 - PHP Notice:  Undefined variable: entry_postcode in /home/vagrant/code/opencart2/admin/view/template/shipping/freteclick.tpl on line 29
+2019-11-12 19:45:52 - PHP Notice:  Undefined variable: shipping_freteclick_postcode in /home/vagrant/code/opencart2/admin/view/template/shipping/freteclick.tpl on line 31
+2019-11-12 19:45:52 - PHP Warning:  Use of undefined constant entry_postcode - assumed 'entry_postcode' (this will throw an Error in a future version of PHP) in /home/vagrant/code/opencart2/admin/view/template/shipping/freteclick.tpl on line 31
+2019-11-12 19:45:52 - PHP Notice:  Undefined variable: help_freteclick_key in /home/vagrant/code/opencart2/admin/view/template/shipping/freteclick.tpl on line 35
+2019-11-12 19:45:52 - PHP Notice:  Undefined variable: entry_freteclick_key in /home/vagrant/code/opencart2/admin/view/template/shipping/freteclick.tpl on line 35
+2019-11-12 19:45:52 - PHP Notice:  Undefined variable: entry_freteclick_key in /home/vagrant/code/opencart2/admin/view/template/shipping/freteclick.tpl on line 37
+2019-11-12 19:45:52 - PHP Notice:  Undefined variable: shipping_freteclick_status in /home/vagrant/code/opencart2/admin/view/template/shipping/freteclick.tpl on line 44
+2019-11-12 19:45:52 - PHP Warning:  Use of undefined constant text_disabled - assumed 'text_disabled' (this will throw an Error in a future version of PHP) in /home/vagrant/code/opencart2/admin/view/template/shipping/freteclick.tpl on line 49
+2019-11-12 19:46:38 - PHP Notice:  Undefined variable: entry_postcode in /home/vagrant/code/opencart2/admin/view/template/shipping/freteclick.tpl on line 29
+2019-11-12 19:46:38 - PHP Warning:  Use of undefined constant entry_postcode - assumed 'entry_postcode' (this will throw an Error in a future version of PHP) in /home/vagrant/code/opencart2/admin/view/template/shipping/freteclick.tpl on line 31
+2019-11-12 19:46:38 - PHP Notice:  Undefined variable: help_freteclick_key in /home/vagrant/code/opencart2/admin/view/template/shipping/freteclick.tpl on line 35
+2019-11-12 19:46:38 - PHP Notice:  Undefined variable: entry_freteclick_key in /home/vagrant/code/opencart2/admin/view/template/shipping/freteclick.tpl on line 35
+2019-11-12 19:46:38 - PHP Notice:  Undefined variable: entry_freteclick_key in /home/vagrant/code/opencart2/admin/view/template/shipping/freteclick.tpl on line 37
+2019-11-12 19:46:38 - PHP Notice:  Undefined variable: shipping_freteclick_status in /home/vagrant/code/opencart2/admin/view/template/shipping/freteclick.tpl on line 44
+2019-11-12 19:46:38 - PHP Warning:  Use of undefined constant text_disabled - assumed 'text_disabled' (this will throw an Error in a future version of PHP) in /home/vagrant/code/opencart2/admin/view/template/shipping/freteclick.tpl on line 49
+2019-11-12 19:47:25 - PHP Notice:  Undefined variable: entry_postcode in /home/vagrant/code/opencart2/admin/view/template/shipping/freteclick.tpl on line 29
+2019-11-12 19:47:25 - PHP Warning:  Use of undefined constant entry_postcode - assumed 'entry_postcode' (this will throw an Error in a future version of PHP) in /home/vagrant/code/opencart2/admin/view/template/shipping/freteclick.tpl on line 31
+2019-11-12 19:47:25 - PHP Notice:  Undefined variable: help_freteclick_key in /home/vagrant/code/opencart2/admin/view/template/shipping/freteclick.tpl on line 35
+2019-11-12 19:47:25 - PHP Notice:  Undefined variable: entry_freteclick_key in /home/vagrant/code/opencart2/admin/view/template/shipping/freteclick.tpl on line 35
+2019-11-12 19:47:25 - PHP Warning:  Use of undefined constant shipping_freteclick_key - assumed 'shipping_freteclick_key' (this will throw an Error in a future version of PHP) in /home/vagrant/code/opencart2/admin/view/template/shipping/freteclick.tpl on line 37
+2019-11-12 19:47:25 - PHP Notice:  Undefined variable: entry_freteclick_key in /home/vagrant/code/opencart2/admin/view/template/shipping/freteclick.tpl on line 37
+2019-11-12 19:47:25 - PHP Notice:  Undefined variable: shipping_freteclick_status in /home/vagrant/code/opencart2/admin/view/template/shipping/freteclick.tpl on line 44
+2019-11-12 19:47:25 - PHP Warning:  Use of undefined constant text_disabled - assumed 'text_disabled' (this will throw an Error in a future version of PHP) in /home/vagrant/code/opencart2/admin/view/template/shipping/freteclick.tpl on line 49
+2019-11-12 19:48:38 - PHP Notice:  Undefined variable: entry_postcode in /home/vagrant/code/opencart2/admin/view/template/shipping/freteclick.tpl on line 29
+2019-11-12 19:48:38 - PHP Warning:  Use of undefined constant entry_postcode - assumed 'entry_postcode' (this will throw an Error in a future version of PHP) in /home/vagrant/code/opencart2/admin/view/template/shipping/freteclick.tpl on line 31
+2019-11-12 19:48:38 - PHP Notice:  Undefined variable: help_freteclick_key in /home/vagrant/code/opencart2/admin/view/template/shipping/freteclick.tpl on line 35
+2019-11-12 19:48:38 - PHP Notice:  Undefined variable: entry_freteclick_key in /home/vagrant/code/opencart2/admin/view/template/shipping/freteclick.tpl on line 35
+2019-11-12 19:48:38 - PHP Warning:  Use of undefined constant shipping_freteclick_key - assumed 'shipping_freteclick_key' (this will throw an Error in a future version of PHP) in /home/vagrant/code/opencart2/admin/view/template/shipping/freteclick.tpl on line 37
+2019-11-12 19:48:38 - PHP Notice:  Undefined variable: entry_freteclick_key in /home/vagrant/code/opencart2/admin/view/template/shipping/freteclick.tpl on line 37
+2019-11-12 19:48:38 - PHP Notice:  Undefined variable: shipping_freteclick_status in /home/vagrant/code/opencart2/admin/view/template/shipping/freteclick.tpl on line 44
+2019-11-12 19:48:38 - PHP Warning:  Use of undefined constant text_disabled - assumed 'text_disabled' (this will throw an Error in a future version of PHP) in /home/vagrant/code/opencart2/admin/view/template/shipping/freteclick.tpl on line 49
+2019-11-12 19:49:47 - PHP Notice:  Undefined variable: entry_postcode in /home/vagrant/code/opencart2/admin/view/template/shipping/freteclick.tpl on line 29
+2019-11-12 19:49:47 - PHP Warning:  Use of undefined constant entry_postcode - assumed 'entry_postcode' (this will throw an Error in a future version of PHP) in /home/vagrant/code/opencart2/admin/view/template/shipping/freteclick.tpl on line 31
+2019-11-12 19:49:47 - PHP Notice:  Undefined variable: help_freteclick_key in /home/vagrant/code/opencart2/admin/view/template/shipping/freteclick.tpl on line 35
+2019-11-12 19:49:47 - PHP Notice:  Undefined variable: entry_freteclick_key in /home/vagrant/code/opencart2/admin/view/template/shipping/freteclick.tpl on line 35
+2019-11-12 19:49:47 - PHP Warning:  Use of undefined constant shipping_freteclick_key - assumed 'shipping_freteclick_key' (this will throw an Error in a future version of PHP) in /home/vagrant/code/opencart2/admin/view/template/shipping/freteclick.tpl on line 37
+2019-11-12 19:49:47 - PHP Notice:  Undefined variable: entry_freteclick_key in /home/vagrant/code/opencart2/admin/view/template/shipping/freteclick.tpl on line 37
+2019-11-12 19:49:47 - PHP Notice:  Undefined variable: shipping_freteclick_status in /home/vagrant/code/opencart2/admin/view/template/shipping/freteclick.tpl on line 44
+2019-11-12 19:49:47 - PHP Warning:  Use of undefined constant text_disabled - assumed 'text_disabled' (this will throw an Error in a future version of PHP) in /home/vagrant/code/opencart2/admin/view/template/shipping/freteclick.tpl on line 49
+2019-11-12 19:50:47 - PHP Notice:  Undefined variable: entry_postcode in /home/vagrant/code/opencart2/admin/view/template/shipping/freteclick.tpl on line 29
+2019-11-12 19:50:47 - PHP Warning:  Use of undefined constant entry_postcode - assumed 'entry_postcode' (this will throw an Error in a future version of PHP) in /home/vagrant/code/opencart2/admin/view/template/shipping/freteclick.tpl on line 31
+2019-11-12 19:50:47 - PHP Notice:  Undefined variable: help_freteclick_key in /home/vagrant/code/opencart2/admin/view/template/shipping/freteclick.tpl on line 35
+2019-11-12 19:50:47 - PHP Notice:  Undefined variable: entry_freteclick_key in /home/vagrant/code/opencart2/admin/view/template/shipping/freteclick.tpl on line 35
+2019-11-12 19:50:47 - PHP Warning:  Use of undefined constant shipping_freteclick_key - assumed 'shipping_freteclick_key' (this will throw an Error in a future version of PHP) in /home/vagrant/code/opencart2/admin/view/template/shipping/freteclick.tpl on line 37
+2019-11-12 19:50:47 - PHP Notice:  Undefined variable: entry_freteclick_key in /home/vagrant/code/opencart2/admin/view/template/shipping/freteclick.tpl on line 37
+2019-11-12 19:50:47 - PHP Notice:  Undefined variable: shipping_freteclick_status in /home/vagrant/code/opencart2/admin/view/template/shipping/freteclick.tpl on line 44
+2019-11-12 19:50:47 - PHP Warning:  Use of undefined constant text_disabled - assumed 'text_disabled' (this will throw an Error in a future version of PHP) in /home/vagrant/code/opencart2/admin/view/template/shipping/freteclick.tpl on line 49
+2019-11-12 19:54:46 - PHP Notice:  Undefined variable: entry_postcode in /home/vagrant/code/opencart2/admin/view/template/shipping/freteclick.tpl on line 29
+2019-11-12 19:54:46 - PHP Warning:  Use of undefined constant entry_postcode - assumed 'entry_postcode' (this will throw an Error in a future version of PHP) in /home/vagrant/code/opencart2/admin/view/template/shipping/freteclick.tpl on line 31
+2019-11-12 19:54:46 - PHP Notice:  Undefined variable: help_freteclick_key in /home/vagrant/code/opencart2/admin/view/template/shipping/freteclick.tpl on line 35
+2019-11-12 19:54:46 - PHP Notice:  Undefined variable: entry_freteclick_key in /home/vagrant/code/opencart2/admin/view/template/shipping/freteclick.tpl on line 35
+2019-11-12 19:54:46 - PHP Warning:  Use of undefined constant shipping_freteclick_key - assumed 'shipping_freteclick_key' (this will throw an Error in a future version of PHP) in /home/vagrant/code/opencart2/admin/view/template/shipping/freteclick.tpl on line 37
+2019-11-12 19:54:46 - PHP Notice:  Undefined variable: entry_freteclick_key in /home/vagrant/code/opencart2/admin/view/template/shipping/freteclick.tpl on line 37
+2019-11-12 19:54:46 - PHP Notice:  Undefined variable: shipping_freteclick_status in /home/vagrant/code/opencart2/admin/view/template/shipping/freteclick.tpl on line 44
+2019-11-12 19:54:46 - PHP Warning:  Use of undefined constant text_disabled - assumed 'text_disabled' (this will throw an Error in a future version of PHP) in /home/vagrant/code/opencart2/admin/view/template/shipping/freteclick.tpl on line 49
+2019-11-12 19:57:30 - PHP Warning:  Use of undefined constant entry_postcode - assumed 'entry_postcode' (this will throw an Error in a future version of PHP) in /home/vagrant/code/opencart2/admin/view/template/shipping/freteclick.tpl on line 31
+2019-11-12 19:57:30 - PHP Notice:  Undefined variable: help_freteclick_key in /home/vagrant/code/opencart2/admin/view/template/shipping/freteclick.tpl on line 35
+2019-11-12 19:57:30 - PHP Warning:  Use of undefined constant shipping_freteclick_key - assumed 'shipping_freteclick_key' (this will throw an Error in a future version of PHP) in /home/vagrant/code/opencart2/admin/view/template/shipping/freteclick.tpl on line 37
+2019-11-12 19:57:30 - PHP Notice:  Undefined variable: shipping_freteclick_status in /home/vagrant/code/opencart2/admin/view/template/shipping/freteclick.tpl on line 44
+2019-11-12 19:57:30 - PHP Warning:  Use of undefined constant text_disabled - assumed 'text_disabled' (this will throw an Error in a future version of PHP) in /home/vagrant/code/opencart2/admin/view/template/shipping/freteclick.tpl on line 49
+2019-11-12 20:09:34 - PHP Warning:  Use of undefined constant entry_postcode - assumed 'entry_postcode' (this will throw an Error in a future version of PHP) in /home/vagrant/code/opencart2/admin/view/template/shipping/freteclick.tpl on line 31
+2019-11-12 20:09:34 - PHP Notice:  Undefined variable: help_freteclick_key in /home/vagrant/code/opencart2/admin/view/template/shipping/freteclick.tpl on line 35
+2019-11-12 20:09:34 - PHP Warning:  Use of undefined constant shipping_freteclick_key - assumed 'shipping_freteclick_key' (this will throw an Error in a future version of PHP) in /home/vagrant/code/opencart2/admin/view/template/shipping/freteclick.tpl on line 37
+2019-11-12 20:09:34 - PHP Notice:  Undefined variable: shipping_freteclick_status in /home/vagrant/code/opencart2/admin/view/template/shipping/freteclick.tpl on line 44
+2019-11-12 20:09:34 - PHP Warning:  Use of undefined constant text_disabled - assumed 'text_disabled' (this will throw an Error in a future version of PHP) in /home/vagrant/code/opencart2/admin/view/template/shipping/freteclick.tpl on line 49
+2019-11-12 20:11:08 - PHP Warning:  Use of undefined constant entry_postcode - assumed 'entry_postcode' (this will throw an Error in a future version of PHP) in /home/vagrant/code/opencart2/admin/view/template/shipping/freteclick.tpl on line 31
+2019-11-12 20:11:08 - PHP Notice:  Undefined variable: help_freteclick_key in /home/vagrant/code/opencart2/admin/view/template/shipping/freteclick.tpl on line 35
+2019-11-12 20:11:08 - PHP Notice:  Undefined variable: shipping_freteclick_status in /home/vagrant/code/opencart2/admin/view/template/shipping/freteclick.tpl on line 44
+2019-11-12 20:11:08 - PHP Warning:  Use of undefined constant text_disabled - assumed 'text_disabled' (this will throw an Error in a future version of PHP) in /home/vagrant/code/opencart2/admin/view/template/shipping/freteclick.tpl on line 49
+2019-11-12 20:11:22 - PHP Warning:  Use of undefined constant entry_postcode - assumed 'entry_postcode' (this will throw an Error in a future version of PHP) in /home/vagrant/code/opencart2/admin/view/template/shipping/freteclick.tpl on line 31
+2019-11-12 20:11:22 - PHP Notice:  Undefined variable: help_freteclick_key in /home/vagrant/code/opencart2/admin/view/template/shipping/freteclick.tpl on line 35
+2019-11-12 20:11:22 - PHP Notice:  Undefined variable: shipping_freteclick_status in /home/vagrant/code/opencart2/admin/view/template/shipping/freteclick.tpl on line 44
+2019-11-12 20:11:33 - PHP Warning:  Use of undefined constant entry_postcode - assumed 'entry_postcode' (this will throw an Error in a future version of PHP) in /home/vagrant/code/opencart2/admin/view/template/shipping/freteclick.tpl on line 31
+2019-11-12 20:11:33 - PHP Notice:  Undefined variable: help_freteclick_key in /home/vagrant/code/opencart2/admin/view/template/shipping/freteclick.tpl on line 35
+2019-11-12 20:11:33 - PHP Notice:  Undefined variable: shipping_freteclick_status in /home/vagrant/code/opencart2/admin/view/template/shipping/freteclick.tpl on line 44
+2019-11-12 20:12:02 - PHP Notice:  Undefined variable: help_freteclick_key in /home/vagrant/code/opencart2/admin/view/template/shipping/freteclick.tpl on line 35
+2019-11-12 20:12:02 - PHP Notice:  Undefined variable: shipping_freteclick_status in /home/vagrant/code/opencart2/admin/view/template/shipping/freteclick.tpl on line 44
+2019-11-12 20:14:51 - PHP Notice:  Undefined variable: help_freteclick_key in /home/vagrant/code/opencart2/admin/view/template/shipping/freteclick.tpl on line 35
+2019-11-12 20:14:51 - PHP Notice:  Undefined variable: shipping_freteclick_status in /home/vagrant/code/opencart2/admin/view/template/shipping/freteclick.tpl on line 44
+2019-11-12 20:17:58 - PHP Notice:  Undefined variable: help_freteclick_key in /home/vagrant/code/opencart2/admin/view/template/shipping/freteclick.tpl on line 35
+2019-11-12 20:17:58 - PHP Notice:  Undefined variable: shipping_freteclick_status in /home/vagrant/code/opencart2/admin/view/template/shipping/freteclick.tpl on line 44
+2019-11-12 20:18:08 - PHP Notice:  Undefined variable: help_freteclick_key in /home/vagrant/code/opencart2/admin/view/template/shipping/freteclick.tpl on line 35
+2019-11-12 20:18:08 - PHP Notice:  Undefined variable: shipping_freteclick_status in /home/vagrant/code/opencart2/admin/view/template/shipping/freteclick.tpl on line 44
+2019-11-12 20:19:42 - PHP Notice:  Undefined variable: help_freteclick_key in /home/vagrant/code/opencart2/admin/view/template/shipping/freteclick.tpl on line 35
+2019-11-12 20:19:42 - PHP Notice:  Undefined variable: shipping_freteclick_status in /home/vagrant/code/opencart2/admin/view/template/shipping/freteclick.tpl on line 44
+2019-11-12 20:20:01 - PHP Notice:  Undefined variable: help_freteclick_key in /home/vagrant/code/opencart2/admin/view/template/shipping/freteclick.tpl on line 35
+2019-11-12 20:20:01 - PHP Notice:  Undefined variable: shipping_freteclick_status in /home/vagrant/code/opencart2/admin/view/template/shipping/freteclick.tpl on line 44
+2019-11-12 20:20:13 - PHP Notice:  Undefined variable: help_freteclick_key in /home/vagrant/code/opencart2/admin/view/template/shipping/freteclick.tpl on line 35
+2019-11-12 20:20:13 - PHP Notice:  Undefined variable: shipping_freteclick_status in /home/vagrant/code/opencart2/admin/view/template/shipping/freteclick.tpl on line 44
+2019-11-12 20:26:37 - PHP Notice:  Undefined variable: help_freteclick_key in /home/vagrant/code/opencart2/admin/view/template/shipping/freteclick.tpl on line 35
+2019-11-12 20:26:37 - PHP Notice:  Undefined variable: shipping_freteclick_status in /home/vagrant/code/opencart2/admin/view/template/shipping/freteclick.tpl on line 44
+2019-11-12 20:27:39 - PHP Notice:  Undefined variable: help_freteclick_key in /home/vagrant/code/opencart2/admin/view/template/shipping/freteclick.tpl on line 35
+2019-11-12 20:27:55 - PHP Notice:  Undefined variable: help_freteclick_key in /home/vagrant/code/opencart2/admin/view/template/shipping/freteclick.tpl on line 35
+2019-11-12 20:28:36 - PHP Notice:  Undefined variable: help_freteclick_key in /home/vagrant/code/opencart2/admin/view/template/shipping/freteclick.tpl on line 35
+2019-11-12 20:35:15 - PHP Notice:  Undefined variable: help_freteclick_key in /home/vagrant/code/opencart2/admin/view/template/shipping/freteclick.tpl on line 35
+2019-11-12 20:54:01 - PHP Notice:  Undefined variable: help_freteclick_key in /home/vagrant/code/opencart2/admin/view/template/shipping/freteclick.tpl on line 35
+2019-11-12 23:02:05 - PHP Notice:  Undefined variable: help_freteclick_key in /home/vagrant/code/opencart2/admin/view/template/shipping/freteclick.tpl on line 35
+2019-11-12 23:03:55 - PHP Notice:  Undefined variable: help_freteclick_key in /home/vagrant/code/opencart2/admin/view/template/shipping/freteclick.tpl on line 35

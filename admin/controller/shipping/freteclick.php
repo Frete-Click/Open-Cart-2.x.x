@@ -11,7 +11,7 @@ class ControllerShippingFreteclick extends Controller {
 
 		if (($this->request->server['REQUEST_METHOD'] == 'POST') && $this->validate()) {
 
-			// var_dump($this->request->post); exit;
+			$this->createFields();
 
 			$this->model_setting_setting->editSetting('freteclick', $this->request->post);
 
@@ -32,6 +32,9 @@ class ControllerShippingFreteclick extends Controller {
 		$data['entry_geo_zone'] = $this->language->get('entry_geo_zone');
 		$data['entry_status'] = $this->language->get('entry_status');
 		$data['entry_sort_order'] = $this->language->get('entry_sort_order');
+		$data['entry_postcode'] = $this->language->get('entry_postcode');
+		$data['entry_freteclick_key'] = $this->language->get('entry_freteclick_key');
+		$data['entry_msg_prazo'] = $this->language->get('entry_msg_prazo');
 
 		$data['help_total'] = $this->language->get('help_total');
 
@@ -81,7 +84,7 @@ class ControllerShippingFreteclick extends Controller {
 
 		$data['geo_zones'] = $this->model_localisation_geo_zone->getGeoZones();
 
-		if (isset($this->request->post['free_status'])) {
+		if (isset($this->request->post['freteclick_status'])) {
 			$data['freteclick_status'] = $this->request->post['freteclick_status'];
 		} else {
 			$data['freteclick_status'] = $this->config->get('freteclick_status');
@@ -93,9 +96,23 @@ class ControllerShippingFreteclick extends Controller {
 			$data['freteclick_sort_order'] = $this->config->get('freteclick_sort_order');
 		}
 
+		if (isset($this->request->post['shipping_freteclick_postcode'])) {
+            $data['shipping_freteclick_postcode'] = $this->request->post['shipping_freteclick_postcode'];
+        } else {
+            $data['shipping_freteclick_postcode'] = $this->config->get('shipping_freteclick_postcode');
+        }
+        
+        if (isset($this->request->post['shipping_freteclick_key'])) {
+            $data['shipping_freteclick_key'] = $this->request->post['shipping_freteclick_key'];
+        } else {
+            $data['shipping_freteclick_key'] = $this->config->get('shipping_freteclick_key');
+        }
+
 		$data['header'] = $this->load->controller('common/header');
 		$data['column_left'] = $this->load->controller('common/column_left');
 		$data['footer'] = $this->load->controller('common/footer');
+
+		// var_dump($data); exit;
 
 		$this->response->setOutput($this->load->view('shipping/freteclick.tpl', $data));
 	}
@@ -106,5 +123,22 @@ class ControllerShippingFreteclick extends Controller {
 		}
 
 		return !$this->error;
+	}
+
+	protected function createFields()
+	{
+		$result = $this->db->query('select * from `'. DB_PREFIX .'setting` where `key` LIKE "%freteclick%"');
+		if (!(bool)$result->num_rows) {
+			$fields = [
+				'shipping_freteclick_postcode' => '123',
+				'shipping_freteclick_key' => '1234',
+				'freteclick_status' => '1',
+				'shipping_freteclick_sort_order' => '1',
+			];
+	
+			foreach ($fields as $key => $value) {
+				$this->db->query("INSERT INTO `" . DB_PREFIX . "setting` SET `code` = 'shipping', `key` = '" . $key . "', `value` = '". $value ."', `serialized` = '0'");
+			}
+		}
 	}
 }

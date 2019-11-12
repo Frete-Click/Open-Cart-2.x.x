@@ -24,48 +24,33 @@
         <h3 class="panel-title"><i class="fa fa-pencil"></i> <?php echo $text_edit; ?></h3>
       </div>
       <div class="panel-body">
-        <form action="<?php echo $action; ?>" method="post" enctype="multipart/form-data" id="form-freteclick" class="form-horizontal">
-          <div class="form-group">
-            <label class="col-sm-2 control-label" for="input-total"><span data-toggle="tooltip" title="<?php echo $help_total; ?>"><?php echo $entry_total; ?></span></label>
-            <div class="col-sm-10">
-              <input type="text" name="freteclick_total" value="<?php echo $freteclick_total; ?>" placeholder="<?php echo $entry_total; ?>" id="input-total" class="form-control" />
+        <form action="<?= $action ?>" method="post" enctype="multipart/form-data" id="form-freteclick" class="form-horizontal">
+            <div class="form-group required">
+                <label class="col-sm-2 control-label" for="input-postcode"><?= $entry_postcode ?></label>
+                <div class="col-sm-10">
+                    <input type="text" name="shipping_freteclick_postcode" value="<?= $shipping_freteclick_postcode ?>" placeholder="<?= $entry_postcode ?>" id="input-postcode" class="form-control" />
+                </div>
             </div>
-          </div>
-          <div class="form-group">
-            <label class="col-sm-2 control-label" for="input-geo-zone"><?php echo $entry_geo_zone; ?></label>
-            <div class="col-sm-10">
-              <select name="freteclick_geo_zone_id" id="input-geo-zone" class="form-control">
-                <option value="0"><?php echo $text_all_zones; ?></option>
-                <?php foreach ($geo_zones as $geo_zone) { ?>
-                <?php if ($geo_zone['geo_zone_id'] == $freteclick_geo_zone_id) { ?>
-                <option value="<?php echo $geo_zone['geo_zone_id']; ?>" selected="selected"><?php echo $geo_zone['name']; ?></option>
-                <?php } else { ?>
-                <option value="<?php echo $geo_zone['geo_zone_id']; ?>"><?php echo $geo_zone['name']; ?></option>
-                <?php } ?>
-                <?php } ?>
-              </select>
+            <div class="form-group required">
+                <label class="col-sm-2 control-label" for="input-contrato-codigo"><span data-toggle="tooltip" title="<?= $help_freteclick_key ?>"><?= $entry_freteclick_key ?></span></label>
+                <div class="col-sm-10">
+                    <input type="text" name="shipping_freteclick_key" value="<?= $shipping_freteclick_key ?>" placeholder="<?= $entry_freteclick_key ?>" id="input-contrato-codigo" class="form-control" />
+                </div>
             </div>
-          </div>
-          <div class="form-group">
-            <label class="col-sm-2 control-label" for="input-status"><?php echo $entry_status; ?></label>
-            <div class="col-sm-10">
-              <select name="freteclick_status" id="input-status" class="form-control">
-                <?php if ($freteclick_status) { ?>
-                <option value="1" selected="selected"><?php echo $text_enabled; ?></option>
-                <option value="0"><?php echo $text_disabled; ?></option>
-                <?php } else { ?>
-                <option value="1"><?php echo $text_enabled; ?></option>
-                <option value="0" selected="selected"><?php echo $text_disabled; ?></option>
-                <?php } ?>
-              </select>
+            <div class="form-group">
+                <label class="col-sm-2 control-label" for="input-status"><?= $entry_status ?></label>
+                <div class="col-sm-10">
+                    <select name="freteclick_status" id="input-status" class="form-control">
+                        <?php if ($freteclick_status): ?>
+                            <option value="1" selected="selected"><?= $text_enabled ?></option>
+                            <option value="0"><?= $text_disabled ?></option>
+                        <?php else: ?>
+                            <option value="1"><?= $text_enabled ?></option>
+                            <option value="0" selected="selected"><?= $text_disabled ?></option>
+                        <?php endif; ?>
+                    </select>
+                </div>
             </div>
-          </div>
-          <div class="form-group">
-            <label class="col-sm-2 control-label" for="input-sort-order"><?php echo $entry_sort_order; ?></label>
-            <div class="col-sm-10">
-              <input type="text" name="freteclick_sort_order" value="<?php echo $freteclick_sort_order; ?>" placeholder="<?php echo $entry_sort_order; ?>" id="input-sort-order" class="form-control" />
-            </div>
-          </div>
         </form>
       </div>
     </div>
