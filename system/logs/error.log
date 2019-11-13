@@ -123,3 +123,10 @@
 2019-11-12 20:54:01 - PHP Notice:  Undefined variable: help_freteclick_key in /home/vagrant/code/opencart2/admin/view/template/shipping/freteclick.tpl on line 35
 2019-11-12 23:02:05 - PHP Notice:  Undefined variable: help_freteclick_key in /home/vagrant/code/opencart2/admin/view/template/shipping/freteclick.tpl on line 35
 2019-11-12 23:03:55 - PHP Notice:  Undefined variable: help_freteclick_key in /home/vagrant/code/opencart2/admin/view/template/shipping/freteclick.tpl on line 35
+2019-11-12 23:25:59 - PHP Notice:  Undefined variable: help_freteclick_key in /home/vagrant/code/opencart2/admin/view/template/shipping/freteclick.tpl on line 35
+2019-11-12 23:26:05 - PHP Notice:  Undefined variable: help_freteclick_key in /home/vagrant/code/opencart2/admin/view/template/shipping/freteclick.tpl on line 35
+2019-11-12 23:46:19 - PHP Notice:  Undefined variable: help_freteclick_key in /home/vagrant/code/opencart2/admin/view/template/shipping/freteclick.tpl on line 35
+2019-11-12 23:58:56 - PHP Notice:  Undefined variable: help_freteclick_key in /home/vagrant/code/opencart2/admin/view/template/shipping/freteclick.tpl on line 35
+2019-11-12 23:58:59 - PHP Notice:  Undefined variable: help_freteclick_key in /home/vagrant/code/opencart2/admin/view/template/shipping/freteclick.tpl on line 35
+2019-11-12 23:59:07 - PHP Notice:  Undefined variable: help_freteclick_key in /home/vagrant/code/opencart2/admin/view/template/shipping/freteclick.tpl on line 35
+2019-11-13 0:00:17 - PHP Notice:  Undefined variable: help_freteclick_key in /home/vagrant/code/opencart2/admin/view/template/shipping/freteclick.tpl on line 35

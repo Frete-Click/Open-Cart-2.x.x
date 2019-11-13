@@ -19,12 +19,12 @@ class ModelShippingFreteclick extends Model {
 	function getQuote($address) {
 		$this->load->language('shipping/freteclick');
 
-		$this->apiKey = $this->config->get('shipping_freteclick_key');
+		$this->apiKey = $this->config->get('freteclick_key');
 
         $method_data = array();
 
         // obtém só a parte numérica do CEP
-		$this->cep_origem = preg_replace ("/[^0-9]/", '', $this->config->get('shipping_freteclick_postcode'));
+		$this->cep_origem = preg_replace ("/[^0-9]/", '', $this->config->get('freteclick_postcode'));
 		$this->endereco_origem = $this->getAddress($this->cep_origem);
 
 		$this->cep_destino = preg_replace ("/[^0-9]/", '', $address['postcode']);
@@ -67,7 +67,7 @@ class ModelShippingFreteclick extends Model {
 			'code' 			=> 'freteclick',
 			'title' 		=> $this->language->get('text_title'),
 			'quote' 		=> $this->quote_data,
-			'sort_order' 	=> $this->config->get('shipping_freteclick_sort_order'),
+			'sort_order' 	=> $this->config->get('freteclick_sort_order'),
 			'error'			=> false,
 		];
 		return $method_data;

@@ -28,13 +28,13 @@
             <div class="form-group required">
                 <label class="col-sm-2 control-label" for="input-postcode"><?= $entry_postcode ?></label>
                 <div class="col-sm-10">
-                    <input type="text" name="shipping_freteclick_postcode" value="<?= $shipping_freteclick_postcode ?>" placeholder="<?= $entry_postcode ?>" id="input-postcode" class="form-control" />
+                    <input type="text" name="freteclick_postcode" value="<?= $freteclick_postcode ?>" placeholder="<?= $entry_postcode ?>" id="input-postcode" class="form-control" />
                 </div>
             </div>
             <div class="form-group required">
                 <label class="col-sm-2 control-label" for="input-contrato-codigo"><span data-toggle="tooltip" title="<?= $help_freteclick_key ?>"><?= $entry_freteclick_key ?></span></label>
                 <div class="col-sm-10">
-                    <input type="text" name="shipping_freteclick_key" value="<?= $shipping_freteclick_key ?>" placeholder="<?= $entry_freteclick_key ?>" id="input-contrato-codigo" class="form-control" />
+                    <input type="text" name="freteclick_key" value="<?= $freteclick_key ?>" placeholder="<?= $entry_freteclick_key ?>" id="input-contrato-codigo" class="form-control" />
                 </div>
             </div>
             <div class="form-group">
@@ -49,6 +49,13 @@
                             <option value="0" selected="selected"><?= $text_disabled ?></option>
                         <?php endif; ?>
                     </select>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="col-sm-2 control-label" for="input-sort-order"><?= $entry_sort_order ?></label>
+                <div class="col-sm-10">
+                    <input type="numer" min="0" name="freteclick_sort_order" value="<?= $freteclick_sort_order ?>" placeholder="<?= $entry_sort_order ?>" id="input-sort-order" class="form-control" />
                 </div>
             </div>
         </form>

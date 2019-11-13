@@ -11,8 +11,6 @@ class ControllerShippingFreteclick extends Controller {
 
 		if (($this->request->server['REQUEST_METHOD'] == 'POST') && $this->validate()) {
 
-			$this->createFields();
-
 			$this->model_setting_setting->editSetting('freteclick', $this->request->post);
 
 			$this->session->data['success'] = $this->language->get('text_success');
@@ -96,16 +94,16 @@ class ControllerShippingFreteclick extends Controller {
 			$data['freteclick_sort_order'] = $this->config->get('freteclick_sort_order');
 		}
 
-		if (isset($this->request->post['shipping_freteclick_postcode'])) {
-            $data['shipping_freteclick_postcode'] = $this->request->post['shipping_freteclick_postcode'];
+		if (isset($this->request->post['freteclick_postcode'])) {
+            $data['freteclick_postcode'] = $this->request->post['freteclick_postcode'];
         } else {
-            $data['shipping_freteclick_postcode'] = $this->config->get('shipping_freteclick_postcode');
+            $data['freteclick_postcode'] = $this->config->get('freteclick_postcode');
         }
         
-        if (isset($this->request->post['shipping_freteclick_key'])) {
-            $data['shipping_freteclick_key'] = $this->request->post['shipping_freteclick_key'];
+        if (isset($this->request->post['freteclick_key'])) {
+            $data['freteclick_key'] = $this->request->post['freteclick_key'];
         } else {
-            $data['shipping_freteclick_key'] = $this->config->get('shipping_freteclick_key');
+            $data['freteclick_key'] = $this->config->get('freteclick_key');
         }
 
 		$data['header'] = $this->load->controller('common/header');
@@ -123,22 +121,5 @@ class ControllerShippingFreteclick extends Controller {
 		}
 
 		return !$this->error;
-	}
-
-	protected function createFields()
-	{
-		$result = $this->db->query('select * from `'. DB_PREFIX .'setting` where `key` LIKE "%freteclick%"');
-		if (!(bool)$result->num_rows) {
-			$fields = [
-				'shipping_freteclick_postcode' => '123',
-				'shipping_freteclick_key' => '1234',
-				'freteclick_status' => '1',
-				'shipping_freteclick_sort_order' => '1',
-			];
-	
-			foreach ($fields as $key => $value) {
-				$this->db->query("INSERT INTO `" . DB_PREFIX . "setting` SET `code` = 'shipping', `key` = '" . $key . "', `value` = '". $value ."', `serialized` = '0'");
-			}
-		}
 	}
 }
